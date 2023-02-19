@@ -1,0 +1,27 @@
+input {
+    width: 50%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 9px;
+    display: inline-block;
+    border: 2px solid rgb(151, 147, 147);
+    box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+    caret-color:auto;
+    border-radius: 10px;
+}
+
+div{
+    caret-color:none;
+}
+
+button {
+    height: 30px ;
+}
+
+input:focus {
+    border-color: #b42b2b;
+}
+
